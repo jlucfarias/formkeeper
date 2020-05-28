@@ -1,0 +1,27 @@
+{
+  "name": "formkeeper",
+  "version": "0.0.1",
+  "description": "Save easily your form data in the browser when you are offline",
+  "main": "dist/formkeeper.js",
+  "module": "dist/formkeeper.mjs",
+  "umd:main": "dist/formkeeper.umd.js",
+  "source": "src/index.js",
+  "scripts": {
+    "build": "microbundle --sourcemap false -f cjs,es,umd",
+    "dev": "microbundle watch"
+  },
+  "keywords": [
+    "form",
+    "data",
+    "offline"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlucfarias/formkeeper.git"
+  },
+  "devDependencies": {
+    "microbundle": "^0.12.0-next.6"
+  },
+  "author": "João Lucas Farias <jlalmeida.farias@gmail.com>",
+  "license": "MIT"
+}
